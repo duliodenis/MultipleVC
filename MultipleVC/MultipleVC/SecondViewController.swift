@@ -10,10 +10,12 @@ import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var statusLabel: UILabel!
+    var status:String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        statusLabel.text = status
     }
 
     override func didReceiveMemoryWarning() {

@@ -71,6 +71,9 @@
                             <constraint firstAttribute="centerX" secondItem="Q6f-aj-OUl" secondAttribute="centerX" id="r7C-fj-LLx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="statusLabel" destination="Q6f-aj-OUl" id="TPz-iu-hjR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rem-LI-8n6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
