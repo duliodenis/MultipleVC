@@ -22,11 +22,22 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyq-Si-SuK">
+                                <rect key="frame" x="220" y="318" width="161" height="30"/>
+                                <state key="normal" title="Second View Controller">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="HEg-Bg-8Y4" kind="show" id="Gwz-E4-z2f"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="centerX" secondItem="o1H-OE-AYv" secondAttribute="centerX" id="9c6-lc-uYE"/>
+                            <constraint firstItem="lyq-Si-SuK" firstAttribute="top" secondItem="o1H-OE-AYv" secondAttribute="bottom" constant="8" id="Hso-5l-bcP"/>
                             <constraint firstAttribute="centerY" secondItem="o1H-OE-AYv" secondAttribute="centerY" id="Ksy-Dy-xPH"/>
+                            <constraint firstAttribute="centerX" secondItem="lyq-Si-SuK" secondAttribute="centerX" id="l4r-7m-03v"/>
                         </constraints>
                     </view>
                 </viewController>
